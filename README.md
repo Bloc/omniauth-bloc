@@ -2,6 +2,8 @@
 
 This gem contains the Bloc strategy for OmniAuth.
 
+![](./login_with_bloc.png)
+
 ## Before you begin
 
 You should have already installed OmniAuth into your app. If not, read the [OmniAuth README](https://github.com/intridea/omniauth) to get started.  Bloc uses OAuth 2.
