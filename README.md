@@ -2,9 +2,13 @@
 
 This gem contains the Bloc strategy for OmniAuth.
 
-## Using this strategy
+## Before you begin
 
-First, create an application on the [Bloc platform](https://www.bloc.io).
+You should have already installed OmniAuth into your app. If not, read the [OmniAuth README](https://github.com/intridea/omniauth) to get started.  Bloc uses OAuth 2.
+
+Then, sign into [Bloc](https://www.bloc.io) and create an application to obtain your CLIENT_KEY and CLIENT_SECRET credentials.
+
+## Using this strategy
 
 Add to Gemfile:
 
