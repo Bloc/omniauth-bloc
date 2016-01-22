@@ -7,7 +7,7 @@ module OmniAuth
 
       option :client_options, {
                authorize_url: '/oauth/authorize',
-               site: 'http://localhost:3000'
+               site: 'https://lisa.bloc.io'
              }
 
       uid { raw_info["id"].to_s }
