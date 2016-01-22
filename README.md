@@ -9,7 +9,7 @@ First, create an application on the [Bloc platform](https://www.bloc.io).
 Add to Gemfile:
 
 ```ruby
-gem 'omniauth-bloc'
+gem 'omniauth-bloc', github: 'bloc/omniauth-bloc'
 ```
 
 Now, tell OmniAuth about this provider. For a rails app, your `config/initializers/omniauth` might look like this:
