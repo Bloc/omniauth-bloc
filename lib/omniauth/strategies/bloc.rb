@@ -34,7 +34,7 @@ module OmniAuth
       end
     end
 
-    class BlocStagingTwo < OmniAuth::Strategies::OAuth2
+    class BlocStaging2 < OmniAuth::Strategies::OAuth2
       option :name, 'bloc_staging2'
 
       option :client_options, {
