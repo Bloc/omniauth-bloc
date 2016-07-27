@@ -71,7 +71,7 @@ module OmniAuth
 
       option :client_options, {
                authorize_url: '/oauth/authorize',
-               site: 'lvh.me:3000'
+               site: 'http://lvh.me:3000'
              }
 
       uid { raw_info["id"].to_s }
