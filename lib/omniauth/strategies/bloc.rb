@@ -20,6 +20,8 @@ module OmniAuth
           bio: raw_info["bio"],
           user_type: raw_info["type"],
           status: raw_info["status"],
+          id: raw_info["id"],
+          student: raw_info["student"],
           image_url: raw_info["image_src"]
         }
       end
