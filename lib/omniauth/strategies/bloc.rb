@@ -36,12 +36,12 @@ module OmniAuth
       end
     end
 
-    class BlocStaging2 < OmniAuth::Strategies::OAuth2
-      option :name, 'bloc_staging2'
+    class BlocDemo1 < OmniAuth::Strategies::OAuth2
+      option :name, 'bloc_demo_1'
 
       option :client_options, {
                authorize_url: '/oauth/authorize',
-               site: 'https://staging2.bloc.io'
+               site: 'https://demo1.bloc.io'
              }
 
       uid { raw_info["id"].to_s }
